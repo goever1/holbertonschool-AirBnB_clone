@@ -14,7 +14,7 @@ from models.place import Place
 
 class HBNBCommand(cmd.Cmd):
 
-    prompt = '(hbnb) '
+    prompt = "(hbnb)"
     file = None
     classes = {
             "BaseModel": BaseModel,
@@ -40,6 +40,7 @@ class HBNBCommand(cmd.Cmd):
 
     def do_EOF(self, arg):
         """ Quits the program with prompt 'EOF'(ctrl + D)"""
+        print("")
         return True
 
     def do_help(self, arg):
