@@ -40,7 +40,6 @@ class HBNBCommand(cmd.Cmd):
 
     def do_EOF(self, arg):
         """ Quits the program with prompt 'EOF'(ctrl + D)"""
-        print("")
         return True
 
     def do_help(self, arg):
