@@ -10,10 +10,10 @@ This repository contains **Holberton School's** AirBnB clone project, which is t
 ## About
 The purpose of this project is for us, as students, to apply all the knowledge we have gained from Holberton's higher-level programming track in a larger scope than we are used to. The project itself is divided into five parts spread over four months:
 
--A command interpreter to manipulate data without a visual interface, similar to a Shell (perfect for development and debugging).
--A website (the front-end) that displays the final product to everyone: static and dynamic.
--A database or files that store data (data = objects).
--An API that provides a communication interface between the front-end and the data (retrieve, create, delete, update).
+* A command interpreter to manipulate data without a visual interface, similar to a Shell (perfect for development and debugging).
+* A website (the front-end) that displays the final product to everyone: static and dynamic.
+* A database or files that store data (data = objects).
+* An API that provides a communication interface between the front-end and the data (retrieve, create, delete, update).
 
 ## Resources
 * [Python's cmd module](https://docs.python.org/3.4/library/cmd.html)
